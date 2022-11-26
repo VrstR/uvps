@@ -1,0 +1,82 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body{
+  padding: 0;
+  background-color: #3a3a3a;
+}
+
+.navigation{
+ background-color: #1f1d1d;
+ width: 17%;
+ height: 700px;
+ position: fixed;
+ display: block;
+ margin-left: -235px;
+ transition: 1s;
+ border-right: 3px solid blueviolet;
+ z-index: 990;
+}
+
+.navigation-item{
+  margin-left: 11%;
+  margin-top: 15%;
+  display: inline-block;
+  font-family: Gill Sans, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  transition: 0.2s;
+  border-left: 2px solid blueviolet;
+  padding: 10px 10px;
+}
+
+.navigation-position{
+  margin-top: 50%;
+}
+
+.navigation-button--adaptive{
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-left: 17.2%;
+  background-color: #4a3982;
+  position: fixed;
+  margin-top: 0.5%;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 45px;
+}
+
+.navigation:hover{
+ margin-left: 0;
+}
+
+.navigation-item:hover{
+ color: blueviolet;
+ margin-left: 30px;
+}
+
+.logo{
+  width: 120px;
+  height: 120px;
+  border-radius: 349px;
+  margin-top: -43%;
+  margin-left: 20%;
+}
+
+.jw-logo--img{
+  margin: 20px 43.7%;
+  box-shadow: 0 0 25px #253057;
+}
+
+.jw-logo{
+  width: 100%;
+  height: 140px;
+  background-color: #485587;
+}
+

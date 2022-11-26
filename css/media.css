@@ -1,0 +1,72 @@
+@media only screen and (max-width: 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /* */
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /* */
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /* */
+ body{
+ 	background-color: #3a3a3a;
+ }
+ .navigation{
+ 	height: 610px;
+ 	width: 100%;
+ 	margin-left: -382px;
+ 	position: fixed;
+ 	transition: 0.5s;
+  display: block;
+ }
+ .navigation-item{
+  margin-top: 6%;
+  margin-left: 65%;
+  display: inline-block;
+  font-size: 18px;
+ }
+ .navigation-position{
+  margin-top: 10%;
+  margin-left: -30%;
+ }
+ .navigation-button--adaptive{
+ 	display: block;
+ 	width: 50px;
+ 	height: 50px;
+ 	margin-left: 385px;
+ 	background-color: #4a3982;
+ 	position: fixed;
+ 	border-radius: 9px;
+ 	margin-top: 1%;
+ }
+ .navigation:hover{
+ 	margin-left: -200px;
+ }
+ .navigation-item:hover{
+  margin-left: 350px;
+ }
+ .jw-logo--img{
+  width: 50px;
+  height: 50px;
+ }
+ .jw-logo{
+ 	height: 100px;
+  width: 100.5%;
+ }
+.wrapper{
+  height: 1000px;
+  overflow-y:auto;
+  position: relative;
+  background-color: #3a3a3a;
+}
+@media only screen and (max-width: 370px) {
+  .jw-logo{
+    width: 80%;
+  }
+  }
